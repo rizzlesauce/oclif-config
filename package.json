@@ -5,7 +5,7 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/rizzlesauce/oclif-config/issues",
   "dependencies": {
-    "@oclif/parser": "^3.8.0",
+    "@rizzlesauce/oclif-parser": "^3.8.5-rossa.1",
     "debug": "^4.1.1",
     "tslib": "^1.9.3"
   },

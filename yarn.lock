@@ -66,15 +66,6 @@
   resolved "https://registry.yarnpkg.com/@oclif/linewrap/-/linewrap-1.0.0.tgz#aedcb64b479d4db7be24196384897b5000901d91"
   integrity sha512-Ups2dShK52xXa8w6iBWLgcjPJWjais6KPJQq3gQ/88AY6BXoTX+MIGFPrWQO1KLMiQfoTpcLnUwloN4brrVUHw==
 
-"@oclif/parser@^3.8.0":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.8.1.tgz#3c842ef4a8ce3d1f5bcfa5938d3fbebf1c6a0618"
-  integrity sha512-0OavFuLj6FBTdZDD6DXdNqH4qdLFLQD/PKK1OvNZhUd4/5v/lp6Ftzilwmirf549naNHq0u15uk1YCBvym5tNQ==
-  dependencies:
-    "@oclif/linewrap" "^1.0.0"
-    chalk "^2.4.2"
-    tslib "^1.9.3"
-
 "@oclif/tslint@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@oclif/tslint/-/tslint-3.1.1.tgz#e055cdf158630862fd44546f6b8fb1266c9778e7"
@@ -82,6 +73,15 @@
   dependencies:
     tslint-eslint-rules "^5.4.0"
     tslint-xo "^0.9.0"
+
+"@rizzlesauce/oclif-parser@^3.8.5-rossa.1":
+  version "3.8.5-rossa.1"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-parser/-/oclif-parser-3.8.5-rossa.1.tgz#7d9d059e39dc77716499008defa869fa813e91c7"
+  integrity sha512-E8yVL665oNlaf8S1DyWRe2EQ3Wiryzo+AKTzH6dQb6EpRUp2YnRSTyinlb6GmwbjzFoLnBeWGSH9x90lsw3N/w==
+  dependencies:
+    "@oclif/linewrap" "^1.0.0"
+    chalk "^2.4.2"
+    tslib "^1.9.3"
 
 "@types/chai@*", "@types/chai@^4.1.7":
   version "4.1.7"
@@ -1605,7 +1605,7 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
-lodash@^4.2.1, lodash@^4.17.11:
+lodash@^4.17.11, lodash@^4.2.1:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
