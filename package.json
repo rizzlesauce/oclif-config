@@ -1,9 +1,9 @@
 {
-  "name": "@oclif/config",
+  "name": "@rizzlesauce/oclif-config",
   "description": "base config object and standard interfaces for oclif components",
   "version": "1.13.3",
   "author": "Jeff Dickey @jdxcode",
-  "bugs": "https://github.com/oclif/config/issues",
+  "bugs": "https://github.com/rizzlesauce/oclif-config/issues",
   "dependencies": {
     "@oclif/parser": "^3.8.0",
     "debug": "^4.1.1",
@@ -36,13 +36,13 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://github.com/oclif/config",
+  "homepage": "https://github.com/rizzlesauce/oclif-config",
   "keywords": [
     "oclif"
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "repository": "oclif/config",
+  "repository": "rizzlesauce/oclif-config",
   "scripts": {
     "build": "rm -rf lib && tsc",
     "lint": "tsc -p test --noEmit && tslint -p test",
