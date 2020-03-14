@@ -1,3 +1,7 @@
+## [1.13.4-rossa.2](https://github.com/rizzlesauce/oclif-config/compare/v1.13.4-rossa.1...v1.13.4-rossa.2) (2020-03-14)
+
+
+
 ## [1.13.4-rossa.1](https://github.com/rizzlesauce/oclif-config/compare/v1.13.3...v1.13.4-rossa.1) (2019-09-21)
 
 
