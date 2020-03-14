@@ -109,7 +109,7 @@ export interface IConfig {
   readonly topics: Topic[]
   readonly commandIDs: string[]
 
-  runCommand(id: string, argv?: string[], options?: {isRunByDefault?: boolean}): Promise<void>
+  runCommand(id: string, argv?: string[], options?: Command.RunOptions): Promise<void>
   runHook<T extends Hooks, K extends Extract<keyof T, string>>(event: K, opts: T[K]): Promise<void>
   findCommand(id: string, opts: {must: true}): Command.Plugin
   findCommand(id: string, opts?: {must: boolean}): Command.Plugin | undefined
@@ -300,7 +300,7 @@ export class Config implements IConfig {
     debug('%s hook done', event)
   }
 
-  async runCommand(id: string, argv: string[] = [], options?: {isRunByDefault?: boolean}) {
+  async runCommand(id: string, argv: string[] = [], options?: Command.RunOptions) {
     debug('runCommand %s %o', id, argv)
     const c = this.findCommand(id)
     if (!c) {
